@@ -1,0 +1,32 @@
+#startButton {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      
+      #startButton button {
+        padding: 15px 40px;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      
+      #startButton button:hover {
+        background-color: #45a049;
+        transform: scale(1.05);
+      }
+      
+      .hidden {
+        display: none !important;
+      }
